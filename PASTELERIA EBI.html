@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBI PASTELERIA</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgba(236, 129, 174, 0.87);
+            padding: 30px;
+            text-align: right;
+            font-size: 35px;
+            color: white;
+
+        }
+        article {
+            float: left;
+            padding: 20px;
+            width: 80%;
+            background-color: #f1f1f1;
+            height: 700px;
+        }
+ /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: left;
+            width: 20%;
+            height: 700px;
+            /* only for demonstration, should be removed */
+            background: rgb(210, 198, 248);
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+  /* Clear floats after the columns */
+        section::after {
+            content: "";
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: rgb(119, 14, 138);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 700px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <p> 
+        <h1>EBI PASTELERIA</h1>
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhNtzedzFiSU7TzZz7d5C8XZA4C-kcGS-Y9-RvJXzSCx9jKFms_NDiosmL1ySu1E9qAvtr7uC5G1RXj4rDR6WaxHHdi56Q5M0L0U9PgvwMv-cKN-Qn-evxl03nordiuKPFpHqjakVHaVRDYalWvcdH4WMX5uJswPAPcknb2CpO8h-vCXfEh9KFifLgZUQ=s794" align="left" width="200px" height="100px">
+        <br clear="all">
+    </p>
+    </header>
+
+    <section>
+        <nav>
+            <dl>
+                <strong>
+                <dt>Redes sociales </dt>
+                <br >
+        </strong>
+                <dd>Whatsapp</dd> 
+                <br >
+                <dd>Facebook</dd> >
+                <br >
+                <dd>Instagram</dd>
+                <br >
+                <dd>Pagina web</dd>
+                <br >
+            </dl>
+        </nav>
+
+        <article>
+            <h1>Pasteles hechos con amor</h1>
+            <p>Fundada el 30 de Octubre de 1994 la pasteleria EBI busca dar a sus clientes nuevas experiencias de sabor, en la reposteria, con los mejores ingredientes y el personal mas amable.</p>
+      <img src="https://cakemerchant.com/wp-content/uploads/Mini-Pumpkin-Cakes-2.jpg" alt="logo" width="230px" height="270px">
+      <img src="https://muymolon.com/wp-content/uploads/2016/06/pastelito.png" alt="logo" width="350px" height="350px">
+      <img src="https://www.red17.com/pics/2021/02/menos-es-mas-con-preciosos-pasteles-minimalistas-dignos-de-pinterest-1.jpg" alt="logo" width="230px" height="260px">    
+      <strong>
+      <h3>Aqui haz tu pedido</h3>
+    </strong>
+      <!-- Formulario -->
+      <strong>
+       <h2>Crear usuario</h2>
+       <form action="/accion.js" id="form1" method="post">
+           <label for="nombre">Nombre:</label>
+           <input type="text" id="nombre" name="nombre"><br>
+           <label for="Correo">Correo:</label>
+           <input type="text" id="correo" name="correo" form="form1">
+       <label for="telefono">telefono:</label>
+       <input type="tel" id="" name="Telefono" form="form2">
+
+    </article>
+    </section>
+</section>
+
+    <div id="listap" class="container">
+        <h1 id="encabezado" class="encabezado" align="center"> CONOCE NUESTROS PRODUCTOS! </h1>
+        <img src="https://media4.giphy.com/media/dSdoQogGblKnid5Wb3/giphy.gif?cid=790b76119daa72683e80eea37f81a38217649b31490de132&rid=giphy.gif&ct=g" align="center" >
+        <div class = row>
+            <br >
+            <h1 id="encabezado2" class="encabezado2" align="center"> SABORES DISPONIBLES DE NUESTRA PANADERIA </h1>
+            
+            <div class="four columns">
+                <div class="card">
+                        <img src="http://www.sweetandsabroso.com/wordpress/wp-content/uploads/2017/07/TresLechesPiece.gif" alt="PTL" width="350px" height="400px" class="u-full-width>
+                        <div class="info-card">
+                        <h3>PASTEL DE TRES LECHES</h3>
+                        <p>Con frutas de temporada</p>
+                        <p class="precio"> $300 </p>
+                        <a href="#"
+                        class="u-full-width">
+                    </a>
+                        
+     </div>
+           </div>
+              </div>
+
+              <div class="four columns">
+                <div class="card">
+                        <img src="https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2020/01/pastel-de-chocolate-magnolia-bakery-1.jpg?fit=778%2C548&ssl=1" alt="PTL" width="350px" height="400px" class="u-full-width>
+                        <div class="info-card">
+                        <h3>PASTEL DE CHOCOLATE</h3>
+                        <p>Pastel preparado con una fina cubierta de chocolate amargo y chispas</p>
+                        <p class="precio"> $400 </p>
+                        <a href="#"
+                        class="u-full-width">
+                    </a>
+                        
+     </div>
+           </div>
+              </div>
+
+              <div class="four columns">
+                <div class="card">
+                        <img src="https://kitchenfair.com.mx/wp-content/uploads/2016/12/receta-pastel-red-velvet-navidad-1280%C3%97854.jpg" alt="PTL" width="350px" height="400px" class="u-full-width>
+                        <div class="info-card">
+                        <h3>PASTEL DE RED VELVET</h3>
+                        <p>Deliciosa receta de red velvet</p>
+                        <p class="precio"> $290 </p>
+                        <a href="#"
+                        class="u-full-width">
+                    </a>
+                        
+     </div>
+           </div>
+              </div>
+
+              <div class="four columns">
+                <div class="card">
+                        <img src="https://heraldodemexico.com.mx/u/fotografias/m/2018/8/3/f925x521-64294_133158_5050.jpg" alt="PTL" width="350px" height="400px" class="u-full-width>
+                        <div class="info-card">
+                        <h3>PASTEL DE ELOTE</h3>
+                        <p>Pastel preparado de manera artesanal y con ingredientes frescos</p>
+                        <p class="precio"> $500 </p>
+                        <a href="#"
+                        class="u-full-width">
+                    </a>
+                        
+     </div>
+           </div>
+              </div>
+
+
+
+              
+ </div>
+</div>
+<progress> </progress>
+<div class="barra">
+    <h1>Complementos de la pasteleria</h1>
+    <p>Ademas contamos con complementos para mejorar tu experiencia, ya sea una fiesta o una reunión privada, contamos con lo que necesitas</p>
+    <ul>
+        <li>Café</li>
+        <li>Velas</li>
+        <li>Gorritos</li>
+        <li>Globos</li>
+    </ul>
+<img src="https://media1.giphy.com/media/ehDPXfJo30Q4JP20nM/giphy.gif" alt="logo" width="230px" height="270px">
+</div>  
+<footer>
+            Te esperamos Av. Cien años Col. Mercado #45 cerca de la glorieta 1 de pastel-de-chocolate-magnolia-bakery-1 Tel. 7471010678 </p>
+    </footer>
+
+</body>
+
+</html>
